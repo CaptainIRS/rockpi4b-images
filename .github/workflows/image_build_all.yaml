@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         DEVICE: [rockpi4b]
-        EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
+        EDITION: [xfce]
         BRANCH: [stable]
     steps:
       -
